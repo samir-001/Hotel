@@ -1,0 +1,236 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+.iconSize-3{
+    font-size:30pt;
+}
+.secondary-color{
+    color:#f7c08a;
+}
+.drakColor{
+    background-color: #333;
+}
+
+nav{
+    position: sticky;
+    background-color:#333 ;
+    overflow: hidden;
+
+}
+nav .logo{
+    float: left;
+    
+}
+nav .logo a {
+    display: block;
+    padding: 10px;
+    color:white;
+  
+}
+
+
+nav ul{
+    float:right
+}
+nav ul li{
+  list-style: none;
+  float: left;
+}
+nav ul li a {
+    color:white;
+    display: block;
+    padding: 15px;
+
+}
+nav ul li a:hover{
+    color:#f7c08a;
+    background-color: rgba(92, 72, 72, 0.3);
+
+}
+.active{
+    color:#f7c08a;
+    background-color: rgba(92, 72, 72, 0.3);
+}
+.showCase{
+    font-size: 18pt;
+    height: 800px;
+    background: url("../image/showcase.jpg") no-repeat center center/cover;
+   
+}
+.lead{
+    line-height: 1.3em;
+}
+.showCase h1{
+    font-size: 30pt;
+    padding: 20px;
+  
+}
+.showCase-content{
+    font-size: 14pt;
+    padding-top:20%;
+    text-align: center;
+    color: white;
+}
+.btn{
+    color: white;
+    display: inline-block;
+    background-color:#333;
+    padding: 10px 20px;
+    margin-top:20px ;
+}
+.btn-w{
+    color: #333;
+    display: inline-block;
+    background-color:white;
+    padding: 10px 20px;
+    margin-top:20px ;
+}
+
+section.info div.info-img{
+    float: left;
+    height: 600px;
+    width:50%;
+    background: url("../image/test-bg.jpg")no-repeat center center/cover;
+}
+section.info div.info-contnet{
+    text-align: center;
+    height: 400px;
+    float: right;
+    width:50%;
+    font-size: 16pt;
+    color: white;
+    height: 600px;
+}
+section.info div.info-contnet h3 {
+padding-top:20%;
+}
+section.info div.info-contnet p {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.box{
+
+    float: left;
+    width:25%;
+    text-align: center;
+    padding: 100px 20px ;
+    height: 300px;
+    
+}
+.box:nth-child(even){
+    color: white;
+    background-color: #f7c08a;
+    
+}
+
+.features{
+    width: 100%;
+   
+}
+footer{
+  padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+
+}
+.about{
+    padding: 10px;
+}
+.about .about-info{
+    float: left;
+    padding: 0 20px;
+    padding-top: 10%;
+    width: 50%;
+    height: 400px;
+    
+
+}
+.about .about-info p{
+    padding: 0 40px;
+    width: 100%;
+
+}
+.about .image{
+    width: 50%;
+    height:400px;
+    float:right;
+    border-radius: 30px;
+    background: url("../image/photo-1.jpg") no-repeat center center/cover;
+}
+.testimonials{
+    padding-bottom: 20px;
+    background: url("../image/test-bg.jpg") no-repeat center center/cover;
+
+}
+.client{
+    background-color:#f7c08a;
+    min-height: 120px;
+    margin-top:20px;
+    padding: 10px;
+    text-align:center ;
+    border-radius: 10px;
+}
+.client img{
+    width:100px;
+    height:100px;
+    float:left;
+    border-radius: 50%;
+    
+}
+.client p {
+    width: 98%;
+    padding-top:30px;
+    margin-left :10px;;
+}
+.testimonials h1 {
+ 
+    color:white;
+    padding-top:30px;
+}
+.contact-form h1,.contact-form p{
+    padding-top: 30px;
+    text-align: left;
+}
+.contact-form p{
+    font-size: 16pt;
+    padding: 10px 0;
+}
+.form-group{
+font-size: 16pt;
+width:100%;
+float: left;
+
+}
+label{
+    font-size: 16pt;
+    float: left;
+    padding: 10px 0;
+}
+input,textarea{
+    width:100%;
+    line-height: 1.9em;
+}
+textarea{
+height: 400px;
+}
+.wraper{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.contact-btn{
+    float:left;
+    border: none;
+    margin-bottom: 30px;
+}
